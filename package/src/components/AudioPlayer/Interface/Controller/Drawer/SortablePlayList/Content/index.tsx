@@ -74,14 +74,4 @@ const PlayListContainer = styled.div`
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0, 0, 0, 1.2);
   }
-  &.playlist-content-leave {
-    opacity: 1;
-    max-height: 20vh;
-  }
-  &.playlist-content-leave-active {
-    opacity: 0;
-    max-height: 0;
-    transition-duration: 0.25s;
-    transition-timing-function: 0.2s cubic-bezier(0.66, -0.41, 1, 1);
-  }
 `;
