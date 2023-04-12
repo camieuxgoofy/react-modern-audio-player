@@ -9,6 +9,7 @@ export type ActiveUI = Partial<{
   all: boolean;
   playButton: boolean;
   playList: PlayListUI;
+  playListOpen: boolean;
   prevNnext: boolean;
   volume: boolean;
   volumeSlider: boolean;

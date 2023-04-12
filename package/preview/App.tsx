@@ -66,22 +66,13 @@ function App() {
         // trackTimeCurrent: "row2-1",
         // trackTimeDuration: "row2-3",
       },
-      customComponentsArea: {
-        test1: "row1-10",
-      },
     } as InterfacePlacement<11>,
     player: playerPlacement as PlayerPlacement,
   };
 
   const activeUI: ActiveUI = {
     all: true,
-    progress: progressType as "bar" | "waveform",
-    // playButton: true,
-    // repeatType: true,
-    // volume: true,
-    // playList: "sortable",
-    // prevNnext: true,
-    // trackTime: true,
+    playListOpen: true
   };
 
   const CustomComponent = ({
